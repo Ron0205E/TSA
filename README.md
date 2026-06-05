@@ -17,3 +17,8 @@ Before running an experiment, open `baselines/TSA/config_tsa.yaml` and configure
 
 To verify the setup, run a small subset first: `python baselines/TSA/run_tsa_AdvBench.py --num 5 --threads 5` for AdvBench, or `python baselines/TSA/run_tsa_HarmBench.py --num 5 --workers 5` for HarmBench. After confirming that the configuration works, remove `--num` to process the full mini dataset, or use `--start`, `--end`, and `--indices` to run selected examples.
 
+## ⚠️ Disclaimer & Ethical Warning
+
+**This repository is provided for academic and research purposes only.** By accessing this code, you agree not to use it for malicious purposes, including generating harmful content, attacking LLM services, or bypassing content filters. Users assume full responsibility for any outputs generated, and the authors disclaim any liability for misuse. Vulnerability findings will be responsibly disclosed to affected LLM providers.
+
+> **Short Notice:** This code is for academic research only. Do not use for malicious purposes. Misuse may violate LLM providers' terms of service and applicable laws.
